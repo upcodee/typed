@@ -22,6 +22,5 @@ yarn-error.log
 
 # outputs
 #
-lib/
 yarn.lock
 package-lock.json
