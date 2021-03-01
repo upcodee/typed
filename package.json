@@ -1,0 +1,31 @@
+{
+  "name": "@upcodee/typed",
+  "version": "1.0.0",
+  "description": "Typed is TS library to simplify factory method creation for polymorfic types",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "barrelsby --delete -d src && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/upcodee/typed.git"
+  },
+  "keywords": [
+    "typescript",
+    "typed",
+    "polymorfic",
+    "javascript"
+  ],
+  "author": "upcodee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/upcodee/upcodee/issues"
+  },
+  "homepage": "https://github.com/upcodee/upcodee#readme",
+  "devDependencies": {
+    "barrelsby": "^2.2.0",
+    "typescript": "^4.1.5"
+  }
+}
